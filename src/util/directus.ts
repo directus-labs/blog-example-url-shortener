@@ -1,7 +1,7 @@
 import { createDirectus, staticToken, rest } from "@directus/sdk";
 
 const directusToken = import.meta.env.VITE_DIRECTUS_API_TOKEN;
-const directusUrl = import.meta.env.VITE__DIRECTUS_URL;
+const directusUrl = import.meta.env.VITE__DIRECTUS_API_URL;
 
 if (!directusToken) {
   throw new Error("Please include a Token");
