@@ -8,5 +8,8 @@ export default defineConfig({
     "process.env.VITE_DIRECTUS_API_TOKEN.": JSON.stringify(
       process.env.VITE_DIRECTUS_API_TOKEN
     ),
+    "process.env.VITE_DIRECTUS_API_URL.": JSON.stringify(
+      process.env.VITE_DIRECTUS_API_URL
+    ),
   },
 });
